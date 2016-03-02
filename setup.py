@@ -10,6 +10,8 @@ setup(
     long_description=open("README.rst").read(),
     author='Fabian Schindler',
     author_email='fabian.schindler@eox.at',
+    license='MIT',
     url='https://github.com/constantinius/fabrant',
+    download_url='https://github.com/constantinius/fabrant/releases',
     py_modules=['fabrant'],
 )
