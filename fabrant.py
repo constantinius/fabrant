@@ -3,7 +3,7 @@ from contextlib import contextmanager
 from fabric.api import local, lcd, settings
 
 
-__version__ = "0.0.5"
+__version__ = "0.0.6"
 __all__ = ["vagrant"]
 
 
