@@ -3,6 +3,10 @@ from contextlib import contextmanager
 from fabric.api import local, lcd, settings
 
 
+__version__ = "0.0.1"
+__all__ = ["vagrant"]
+
+
 def _parse_ssh_config(config):
     lines = config.split("\n")
 
