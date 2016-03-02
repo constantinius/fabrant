@@ -14,8 +14,13 @@ setup(
     author_email='fabian.schindler@eox.at',
     license='MIT',
     url='https://github.com/constantinius/fabrant',
-    download_url=(
-        'https://github.com/constantinius/fabrant/archive/v%star.gz' % version
-    ),
     py_modules=['fabrant'],
+    classifiers=[
+        "Programming Language :: Python :: 2",
+        "Programming Language :: Python :: 3",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Topic :: Software Development :: Libraries",
+        "Topic :: Utilities",
+    ]
 )
